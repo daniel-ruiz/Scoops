@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D931CE21E83EEEA005051E9 /* PracticaBoot4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaBoot4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D931CE21E83EEEA005051E9 /* Scoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D931CE51E83EEEA005051E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D931CEC1E83EEEA005051E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D931CEF1E83EEEA005051E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		5D931CD91E83EEEA005051E9 = {
 			isa = PBXGroup;
 			children = (
-				5D931CE41E83EEEA005051E9 /* PracticaBoot4 */,
+				5D931CE41E83EEEA005051E9 /* Scoops */,
 				5D931CE31E83EEEA005051E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		5D931CE31E83EEEA005051E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D931CE21E83EEEA005051E9 /* PracticaBoot4.app */,
+				5D931CE21E83EEEA005051E9 /* Scoops.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D931CE41E83EEEA005051E9 /* PracticaBoot4 */ = {
+		5D931CE41E83EEEA005051E9 /* Scoops */ = {
 			isa = PBXGroup;
 			children = (
 				5D931CF71E83F069005051E9 /* AppDelegate */,
@@ -65,6 +65,7 @@
 				5D931CF91E83F087005051E9 /* Storyboards */,
 				5D931CFB1E83F0A8005051E9 /* Resources */,
 			);
+			name = Scoops;
 			path = PracticaBoot4;
 			sourceTree = "<group>";
 		};
@@ -124,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D931CE11E83EEEA005051E9 /* PracticaBoot4 */ = {
+		5D931CE11E83EEEA005051E9 /* Scoops */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D931CF41E83EEEA005051E9 /* Build configuration list for PBXNativeTarget "PracticaBoot4" */;
+			buildConfigurationList = 5D931CF41E83EEEA005051E9 /* Build configuration list for PBXNativeTarget "Scoops" */;
 			buildPhases = (
 				5D931CDE1E83EEEA005051E9 /* Sources */,
 				5D931CDF1E83EEEA005051E9 /* Frameworks */,
@@ -136,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = PracticaBoot4;
+			name = Scoops;
 			productName = PracticaBoot4;
-			productReference = 5D931CE21E83EEEA005051E9 /* PracticaBoot4.app */;
+			productReference = 5D931CE21E83EEEA005051E9 /* Scoops.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,12 +154,12 @@
 				TargetAttributes = {
 					5D931CE11E83EEEA005051E9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8Z8X9YVPSZ;
+						DevelopmentTeam = 5QSHG3473C;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 5D931CDD1E83EEEA005051E9 /* Build configuration list for PBXProject "PracticaBoot4" */;
+			buildConfigurationList = 5D931CDD1E83EEEA005051E9 /* Build configuration list for PBXProject "Scoops" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D931CE11E83EEEA005051E9 /* PracticaBoot4 */,
+				5D931CE11E83EEEA005051E9 /* Scoops */,
 			);
 		};
 /* End PBXProject section */
@@ -313,10 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8Z8X9YVPSZ;
+				DEVELOPMENT_TEAM = 5QSHG3473C;
 				INFOPLIST_FILE = PracticaBoot4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.com.PracticaBoot4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danruicar.scoops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -326,10 +327,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8Z8X9YVPSZ;
+				DEVELOPMENT_TEAM = 5QSHG3473C;
 				INFOPLIST_FILE = PracticaBoot4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.com.PracticaBoot4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danruicar.scoops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -338,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D931CDD1E83EEEA005051E9 /* Build configuration list for PBXProject "PracticaBoot4" */ = {
+		5D931CDD1E83EEEA005051E9 /* Build configuration list for PBXProject "Scoops" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D931CF21E83EEEA005051E9 /* Debug */,
@@ -347,13 +348,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D931CF41E83EEEA005051E9 /* Build configuration list for PBXNativeTarget "PracticaBoot4" */ = {
+		5D931CF41E83EEEA005051E9 /* Build configuration list for PBXNativeTarget "Scoops" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D931CF51E83EEEA005051E9 /* Debug */,
 				5D931CF61E83EEEA005051E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
